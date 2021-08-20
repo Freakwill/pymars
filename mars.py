@@ -18,10 +18,10 @@ r = ro.r
 # _ = importr('class')
 mda = importr('mda')
 
-from sklearn.base import RegressorMixin
+from sklearn.base import BaseEstimator, RegressorMixin
 
 
-class Mars(RegressorMixin):
+class Mars(BaseEstimator, RegressorMixin):
     '''MARS: Multivariate Adaptive Regression Splines
     
     MARS is an adaptive procedure for regression, and is well suited for high-dim problems.
