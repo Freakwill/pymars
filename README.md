@@ -1,5 +1,5 @@
 # pymars
-MARS regression based on rpy2/mars
+MARS regression (Multivariate Adaptive Regression Splines) based on rpy2/mars
 
 ## Requirements
 - scikit-learn
